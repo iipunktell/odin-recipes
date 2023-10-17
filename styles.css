@@ -5,8 +5,12 @@
     margin: 0;
 }
 
+.header .main-header {
+    padding-left: 10%;
+}
+
 .content {
-    margin: 8px;
+    margin: 8px 10%;
 }
 
 .main-header {
@@ -42,7 +46,32 @@
     font-size: 14px;
 }
 
-.ordered-list,
-.unordered-list {
+.ordered-list {
     line-height: 1.5;
+}
+
+.menu-items {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-inline-start: 0px;
+}
+
+.menu-items li {
+    background-color: black;
+    flex: 1;
+    list-style-type: none;
+}
+
+.menu-items li a {
+    font-size: 25px;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
