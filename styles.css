@@ -2,6 +2,11 @@
     background-color: rgb(255, 205, 80);
     color: black;
     font-family: "Courier New", "Lucida Console", monospace;
+    margin: 0;
+}
+
+.content {
+    margin: 8px;
 }
 
 .main-header {
