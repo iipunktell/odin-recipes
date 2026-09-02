@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: "Coming Soon", cursive;
+}
+
+body {
+    background-color: rgb(227, 227, 135);
+    padding: 20px;
+}
